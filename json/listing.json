@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Micky",
+    "symbol": "💯",
+    "price" : "500",
+    "keywords":
+      "hundred points symbol symbol wow wow win win perfect perfect parties parties",
+      "image": "/images/1.jpg"
+  },
+  {
+    "title": "Jhone",
+    "symbol": "🔢",
+    "price" : "700",
+    "keywords": "input symbol for numbers symbol",
+    "image": "/images/2.jpg"
+  },
+  {
+    "title": "Grinning",
+    "symbol": "😀",
+    "price" : "900",
+    "keywords": "grinning face happy smiley emotion emotion",
+    "image": "/images/3.jpg"
+  },
+  {
+    "title": "Grimacing",
+    "symbol": "😬",
+    "price" : "850",
+    "keywords": "grimacing face silly smiley emotion emotion selfie selfie",
+    "image": "/images/4.jpg"
+  },
+  {
+    "title": "Grin",
+    "symbol": "😁",
+    "price" : "300",
+    "keywords":
+      "grinning face with smiling eyes happy silly smiley emotion emotion good good selfie selfie",
+      "image": "/images/1.jpg"
+  },
+  {
+    "title": "Joy",
+    "symbol": "😂",
+    "price" : "950",
+    "keywords":
+      "face with tears of joy happy silly smiley cry laugh laugh emotion emotion sarcastic sarcastic",
+      "image": "/images/2.jpg"
+  }
+]

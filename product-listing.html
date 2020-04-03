@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="product-listing.css">
+    <link rel="stylesheet" href="cart.css">
+    <title> HTML5 forms </title>
+</head>
+
+<body>
+    <header role="banner">
+        <section> Banner </section>
+    </header>
+    <nav role="navigation">
+        <ul>
+            <li>Put navigation here</li>
+        </ul>
+    </nav>
+    <main role="main">
+        <h1> Product Listing </h2>
+            <div class="form-group">
+                <label for="search">Product Search:</label>
+                <input type="text" placeholder="search list from here..." aria-label="search" id="search" name="username" />
+            </div>
+            <div class="right"><a href="#" onclick="sortBy(sortLowToHigh)">Price low to High</a> || <a href="#" id="sortH" onclick="sortBy(sortHighToLow)">Price High to Low</a></div>
+
+            <div id="grid-container" class="grid-container">
+
+                <template>
+                        <div class="grid-item">
+                            <img width="150px"> 
+                            <p class="title"></p>
+                            <p class="price"></p>
+                            <button class="button"> Add to Cart </button>
+                        </div>
+                </template>
+
+
+            </div>
+    </main>
+
+    <section roll='Cart' id="cartContainer">
+
+        <div>
+            <span id="bag" class="bag show">Cart Icon
+                        <span class="bag__quantity">0</span>
+            </span>
+        </div>
+        <article role="cart content" id="cartContent" class="hide">
+            <div id="close" class="close-btn">X</div>
+
+            cart contents ...
+
+        </article>
+
+    </section>
+
+    <footer role="contentinfo">
+        <p>Put copyright, etc. here.</p>
+    </footer>
+
+
+    <script src="product-listing.js"></script>
+
+</body>
+
+</html>
